@@ -10,6 +10,10 @@ import javax.persistence.Table;
 @Entity
 @Table(name="student")
 public class Student {
+	
+	public Student() {
+		// default constructor
+	}
 
 	public Student(String firstName, String lastName, String email) {
 		super();
